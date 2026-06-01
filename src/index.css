@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700;900&display=swap');
+@import "tailwindcss";
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+.markdown-body {
+  @apply text-[15px] leading-relaxed;
+}
+
+.markdown-body h1 {
+  @apply text-2xl font-bold mt-6 mb-4;
+}
+
+.markdown-body h2 {
+  @apply text-xl font-bold mt-5 mb-3;
+}
+
+.markdown-body h3 {
+  @apply text-lg font-bold mt-4 mb-2;
+}
+
+.markdown-body p {
+  @apply mb-4;
+}
+
+.markdown-body ul {
+  @apply list-disc pl-5 mb-4;
+}
+
+.markdown-body ol {
+  @apply list-decimal pl-5 mb-4;
+}
+
+.markdown-body li {
+  @apply mb-1;
+}
+
+.markdown-body strong {
+  @apply font-bold text-gray-900;
+}
+
+.markdown-body a {
+  @apply text-blue-600 hover:underline;
+}
+
+.markdown-body blockquote {
+  @apply border-l-4 border-gray-200 pl-4 italic text-gray-600 mb-4;
+}
+
+.markdown-body code {
+  @apply bg-gray-100 rounded px-1.5 py-0.5 text-sm font-mono text-pink-600;
+}
+
+.markdown-body pre {
+  @apply bg-gray-800 text-gray-100 rounded-lg p-4 mb-4 overflow-x-auto;
+}
+
+.markdown-body pre code {
+  @apply bg-transparent p-0 text-inherit;
+}
+
+body {
+  background-color: #F5F6F8;
+  -webkit-tap-highlight-color: transparent;
+}

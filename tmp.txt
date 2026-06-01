@@ -1,0 +1,746 @@
+373-];
+374-
+375-const HOME_POSTS: Post[] = [
+376-  {
+377-    id: "e1",
+378:    type: "event",
+379-    title: "2026中国（深圳）企业财税管理创新大会",
+380-    cover: "https://picsum.photos/seed/event_sz/800/400",
+381-    location: "中国·深圳",
+382-    startDate: "06月15日 09:00",
+383-    time: "2026-05-20T12:34:00",
+384-    views: "1.2w",
+385-  },
+386-  {
+387-    id: "v_yesterday",
+388:    type: "video",
+389-    title: "财税政策深度解读",
+390-    content: "这是一段展示昨天发布的示例内容。",
+391-    cover: "https://picsum.photos/seed/tax_y/800/450",
+392-    videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4",
+393-    duration: "10:00",
+394-    time: "2026-05-19T14:30:00",
+395-    views: "3.5k",
+396-  },
+397-  {
+398-    id: "v_long",
+399:    type: "video",
+400-    title: "【深度重磅】2026年度全国企业财税管理核心指南",
+401-    content: "这是一段展示同月发布的示例内容。",
+402-    cover: "https://picsum.photos/seed/long_title/800/450",
+403-    videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4",
+404-    duration: "15:45",
+405-    time: "2026-05-15T04:27:00",
+406-    views: "5.8w",
+407-  },
+408-  {
+409-    id: "n1",
+410:    type: "video",
+411-    title: "2026年最新企业所得税汇算清缴指南",
+412-    cover: "https://picsum.photos/seed/tax_video1/800/450",
+413-    videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4",
+414-    duration: "04:20",
+415-    time: "2026-04-02T10:00:00",
+416-    views: "2.1k",
+417-  },
+418-  {
+419-    id: "n3",
+420:    type: "hot",
+421-    title: "重磅！多地税务局发文",
+422-    content: "近期多地税务局相继发布通知，将对特定类型的发票进行严格审查。",
+423-    cover: "https://picsum.photos/seed/tax_hot1/400/300",
+424-    time: "2025-01-23T14:20:00",
+425-    views: "9.2k",
+426-  },
+427-  {
+428-    id: "n4",
+429:    type: "news-multi-image",
+430-    title:
+431-      "小微企业增值税期末留抵退税政策实施力度加大，快来看看你是否符合条件！",
+432-    images: [
+433-      "https://picsum.photos/seed/tax_news1/400/300",
+434-      "https://picsum.photos/seed/tax_news2/400/300",
+--
+436-    ],
+437-    time: "2026-05-18T06:50:00",
+438-  },
+439-  {
+440-    id: 1,
+441:    type: "multi-image",
+442-    title: "公告",
+443-    content: "友友们，我们的新课程上线了，有需要的朋友，可以真实v",
+444-    images: [
+445-      "https://picsum.photos/seed/post1-1/400/400",
+446-      "https://picsum.photos/seed/post1-2/400/400",
+--
+452-    likesCount: 528,
+453-    commentsCount: 42,
+454-  },
+455-  {
+456-    id: 2,
+457:    type: "large-image",
+458-    title: "公告",
+459-    content: "友友们，我们的新课程上线了，有需要的朋友，可以真实v",
+460-    images: ["https://picsum.photos/seed/post2/800/450"],
+461-    author: "AuxreUXD",
+462-    avatar: "https://picsum.photos/seed/avatar1/100/100",
+--
+464-    likesCount: 342,
+465-    commentsCount: 18,
+466-  },
+467-  {
+468-    id: "h2",
+469:    type: "live",
+470-    title: "金税四期下的企业税务合规指南",
+471-    cover: "https://picsum.photos/seed/live1/400/250",
+472-    category: "八大学院",
+473-    businessTag: "税务合规",
+474-    status: "playback",
+475-    time: "2026-05-17T14:30:00",
+476-  },
+477-  {
+478-    id: "h3",
+479:    type: "policy",
+480-    title: "关于进一步加大增值税期末留抵退税政策实施力度的公告",
+481-    publishYear: "2026",
+482-    content:
+483-      "为进一步支持小微企业和制造业等行业发展，提振市场主体信心，激发市场主体活力，现将进一步加大增值税期末留抵退税政策实施力度有关事项公告如下：一、加大小微企业增值税期末留抵退税政策实施力度...",
+484-    time: "2026-03-26T10:00:00",
+485-    views: "2.4w",
+486-    businessTag: "税收优惠",
+487-  },
+488-  {
+489-    id: "h4",
+490:    type: "hot",
+491-    title: "2026年最新企业所得税汇算清缴指南：这10个易错点千万别踩！",
+492-    content:
+493-      "一年一度的企业所得税汇算清缴又开始了，很多财务人员在填报时容易忽略一些细节，导致多缴税或面临税务风险。本文总结了10个最常见的易错点...",
+494-    cover: "https://picsum.photos/seed/hot1/400/300",
+495-    time: "2026-03-26T14:20:00",
+496-  },
+497-  {
+498-    id: "h5",
+499:    type: "hot",
+500-    title: "重磅！多地税务局发文，严查这类发票，企业财务速看",
+501-    content:
+502-      "近期，多地税务局相继发布通知，将对特定类型的发票进行严格审查。企业财务人员需高度警惕，及时自查自纠，避免因发票问题引发税务稽查...",
+503-    time: "2026-03-25T09:15:00",
+504-    views: "3.1w",
+505-    businessTag: "税务风险",
+506-  },
+507-  {
+508-    id: 5,
+509:    type: "text",
+510-    title: "专家解答：出口免税业务进项抵扣咨询",
+511-    content:
+512-      "出口免税不退税的业务，对应的进项税额是否可以抵扣，如果抵扣了账务怎么处理？",
+513-    author: "财税专家",
+514-    avatar: "https://picsum.photos/seed/avatar2/100/100",
+--
+519-];
+520-
+521-const AI_RESULT_POSTS: Post[] = [
+522-  {
+523-    id: "a1",
+524:    type: "course",
+525-    title: "高新技术企业认定与研发费用加计扣除实务",
+526-    cover: "https://picsum.photos/seed/course1/400/250",
+527-    category: "财税早餐",
+528-    businessTag: "加计扣除",
+529-    status: "reserve",
+--
+533-    duration: "120:00",
+534-    videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4",
+535-  },
+536-  {
+537-    id: "a2",
+538:    type: "course",
+539-    title: "出口退税实务操作全流程解析",
+540-    cover: "https://picsum.photos/seed/course2/400/250",
+541-    category: "八大学院",
+542-    businessTag: "出口退税",
+543-    status: "normal",
+--
+546-    duration: "95:00",
+547-    videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4",
+548-  },
+549-  {
+550-    id: "a3",
+551:    type: "live",
+552-    title: "专家在线答疑：年底报税常见问题汇总",
+553-    cover: "https://picsum.photos/seed/live2/400/250",
+554-    category: "财税早餐",
+555-    businessTag: "年底报税",
+556-    status: "live",
+557-    time: "2026-05-20T10:00:00",
+558-  },
+559-  {
+560-    id: "a4",
+561:    type: "live",
+562-    title: "新公司法对企业财税的影响及应对策略",
+563-    cover: "https://picsum.photos/seed/live3/400/250",
+564-    category: "八大学院",
+565-    businessTag: "公司法",
+566-    status: "reserve",
+567-    time: "2026-05-21T16:00:00",
+568-  },
+569-  {
+570-    id: "a5",
+571:    type: "event",
+572-    title: "2026年度全国财税高峰论坛 - 深圳站",
+573-    cover: "https://picsum.photos/seed/event1/800/400",
+574-    category: "行业峰会",
+575-    businessTag: "财税前沿",
+576-    status: "enrolling",
+577-    time: "2026-03-24T11:00:00",
+578-  },
+579-  {
+580-    id: "a6",
+581:    type: "event",
+582-    title: "走进标杆企业：华为财务管理之道游学班",
+583-    cover: "https://picsum.photos/seed/event2/800/400",
+584-    category: "游学标杆",
+585-    businessTag: "财务管理",
+586-    status: "past",
+587-    time: "2026-02-10T09:00:00",
+588-  },
+589-  {
+590-    id: "a7",
+591:    type: "vertical-video",
+592-    title: "3分钟看懂：金税四期下，企业如何规避税务风险？",
+593-    cover: "https://picsum.photos/seed/tax_video2/400/600",
+594-    videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4",
+595-    duration: "03:15",
+596-    time: "2026-03-27T08:30:00",
+597-  },
+598-  {
+599-    id: "a8",
+600:    type: "publication",
+601-    title: "《中国税务》2026年第3期",
+602-    content:
+603-      "本期重点关注新公司法下的财税风险应对，以及跨境电商出口退税的最新实务指引，深入剖析企业税务合规要点。",
+604-    cover: "https://picsum.photos/seed/pub1/300/400",
+605-    category: "月刊",
+606-    businessTag: "税务前沿",
+607-    time: "2026-03-01T10:00:00",
+608-  },
+609-  {
+610-    id: "a9",
+611:    type: "case",
+612-    title: "某科技公司研发费用加计扣除税务筹划成功案例",
+613-    content:
+614-      "本案例详细介绍了某高新技术企业如何通过合理归集研发费用，成功申请加计扣除，有效降低企业所得税税负的实操过程...",
+615-    cover: "https://picsum.photos/seed/case1/400/300",
+616-    businessTag: "加计扣除",
+617-    time: "2026-03-20T10:00:00",
+618-  },
+619-  {
+620-    id: "a10",
+621:    type: "case",
+622-    title: "跨国企业转让定价税务风险应对案例分析",
+623-    content:
+624-      "随着反避税调查的深入，跨国企业面临的转让定价税务风险日益增加。本案例剖析了一起典型的转让定价税务调整案件，为企业提供合规建议...",
+625-    businessTag: "转让定价",
+626-    time: "2026-02-15T09:30:00",
+--
+1062-      />
+1063-      <motion.div
+1064-        initial={{ y: "100%" }}
+1065-        animate={{ y: 0 }}
+1066-        exit={{ y: "100%" }}
+1067:        transition={{ type: "spring", damping: 30, stiffness: 300 }}
+1068-        className="absolute left-0 right-0 bottom-0 z-[220] bg-[#F7F7F7] rounded-t-[32px] overflow-hidden pb-12 shadow-[0_-8px_30px_rgba(0,0,0,0.1)]"
+1069-      >
+1070-        <div className="px-6 py-8">
+1071-          <div className="flex gap-6 overflow-x-auto no-scrollbar pb-2">
+1072-            {shareOptions.map((opt, i) => (
+--
+1136-      />
+1137-      <motion.div
+1138-        initial={{ y: "100%" }}
+1139-        animate={{ y: 0 }}
+1140-        exit={{ y: "100%" }}
+1141:        transition={{ type: "spring", damping: 30, stiffness: 300 }}
+1142-        className="absolute left-0 right-0 bottom-0 z-[220] bg-[#F7F7F7] rounded-t-[32px] overflow-hidden pb-12 shadow-[0_-8px_30px_rgba(0,0,0,0.1)]"
+1143-      >
+1144-        <div className="px-6 py-8">
+1145-          <div className="flex gap-6 overflow-x-auto no-scrollbar pb-2">
+1146-            {shareOptions.map((opt, i) => (
+--
+1191-      />
+1192-      <motion.div
+1193-        initial={{ y: "100%" }}
+1194-        animate={{ y: 0 }}
+1195-        exit={{ y: "100%" }}
+1196:        transition={{ type: "spring", damping: 30, stiffness: 300 }}
+1197-        className="absolute left-0 right-0 bottom-0 z-[240] bg-[#F7F7F7] rounded-t-[32px] overflow-hidden pb-12 shadow-[0_-8px_30px_rgba(0,0,0,0.1)] flex flex-col"
+1198-      >
+1199-        <div className="p-6 flex-1 overflow-y-auto flex flex-col items-center">
+1200-          {/* Image Preview Card */}
+1201-          <div className="w-full max-w-[280px] bg-white rounded-2xl shadow-lg overflow-hidden mb-8">
+--
+1380-  onClear: () => void;
+1381-  onShareClick: () => void;
+1382-  onAIShareClick: () => void;
+1383-  onChatClick: (query: string, answer: string) => void;
+1384-  onFilterClick: () => void;
+1385:  onRemoveFilter: (type: string, value: string) => void;
+1386:  allSelectedFilters?: { type: string; value: string }[];
+1387-  visible?: boolean;
+1388-  onPostClick?: (post: Post) => void;
+1389-  initialTab?: string;
+1390-}) => {
+1391-  const [activeTab, setActiveTab] = useState(initialTab || "综合");
+--
+1467-  }, [query]);
+1468-
+1469-  // Derive results
+1470-  const journalPosts: Post[] = MOCK_JOURNALS.map(j => ({
+1471-    id: j.id,
+1472:    type: "publication",
+1473-    title: j.title,
+1474-    content: j.description,
+1475-    cover: j.coverUrl,
+1476-    views: j.readCount,
+1477-    time: j.date,
+--
+2710-  const categories = ["全部", "财税", "新规", "视频", "案例", "深度", "职场"];
+2711-
+2712-  const hotItems = [
+2713-    {
+2714-      id: 1,
+2715:      type: "article-3-images",
+2716-      title: "2026年最新企业所得税汇算清缴指南：这10个易错点千万别踩！",
+2717-      images: [
+2718-        "https://picsum.photos/seed/hot1-1/400/300",
+2719-        "https://picsum.photos/seed/hot1-2/400/300",
+2720-        "https://picsum.photos/seed/hot1-3/400/300",
+--
+2724-      time: "2026-05-18T05:00:00",
+2725-      isTop: true,
+2726-    },
+2727-    {
+2728-      id: 2,
+2729:      type: "vertical-video",
+2730-      title: "3分钟看懂：金税四期下，企业如何规避税务风险？",
+2731-      videoCover: "https://picsum.photos/seed/tax_video2/400/600",
+2732-      duration: "03:15",
+2733-      author: "税务专家王老师",
+2734-      comments: 456,
+2735-      time: "2026-05-17T14:20:00",
+2736-    },
+2737-    {
+2738-      id: 3,
+2739:      type: "article-1-image",
+2740-      title: "重磅！多地税务局发文，严查这类发票，企业财务速看",
+2741-      image: "https://picsum.photos/seed/hot3/400/300",
+2742-      author: "中国税务报",
+2743-      comments: 89,
+2744-      time: "2026-04-02T09:15:00",
+2745-    },
+2746-    {
+2747-      id: 4,
+2748:      type: "article-text",
+2749-      title:
+2750-        "财政部最新通知：关于进一步加大增值税期末留抵退税政策实施力度的公告",
+2751-      author: "官方发布",
+2752-      comments: 234,
+2753-      time: "2025-01-23T12:00:00",
+2754-    },
+2755-    {
+2756-      id: 5,
+2757:      type: "video",
+2758-      title: "实操演示：电子发票全流程开具与报销指南",
+2759-      videoCover: "https://picsum.photos/seed/hot5/800/450",
+2760-      duration: "12:40",
+2761-      author: "会计学堂",
+2762-      comments: 56,
+--
+3629-      role: "user" | "ai"; 
+3630-      content: string; 
+3631-      followUpText?: string;
+3632-      options?: string[]; 
+3633-      optionType?: "single" | "multiple" | "open";
+3634:      attachments?: { name: string; url: string; type: string }[] 
+3635-    }[]
+3636-  >(() => {
+3637-    if (initialQuery && initialAnswer) {
+3638-      return [
+3639-        { role: "user", content: initialQuery },
+--
+3641-      ];
+3642-    }
+3643-    return [];
+3644-  });
+3645-  const [input, setInput] = useState("");
+3646:  const [chatAttachments, setChatAttachments] = useState<{name: string; url: string; type: string}[]>([]);
+3647-  const chatFileInputRef = useRef<HTMLInputElement>(null);
+3648-  const [isLoading, setIsLoading] = useState(false);
+3649-  const [isStopped, setIsStopped] = useState(false);
+3650-  const [isHistoryOpen, setIsHistoryOpen] = useState(false);
+3651-  const [isFullScreenInputOpen, setIsFullScreenInputOpen] = useState(false);
+--
+3705-
+3706-  const [knowledgeFiles, setKnowledgeFiles] = useState<any[]>([
+3707-    {
+3708-      id: 1,
+3709-      title: "工作有",
+3710:      type: "问答",
+3711-      date: "25/6/19",
+3712-      iconType: "qa",
+3713-      tags: ["财税", "报表"],
+3714-    },
+3715-    {
+3716-      id: 2,
+3717-      title: "[讲师介绍] 大成方略名师手册.pdf",
+3718:      type: "PDF",
+3719-      date: "25/6/19",
+3720-      iconType: "pdf",
+3721-      tags: ["培训"],
+3722-    },
+3723-    {
+3724-      id: 3,
+3725-      title: "ima知识库使用指南.docx",
+3726:      type: "WORD",
+3727-      date: "25/3/12",
+3728-      iconType: "word",
+3729-      tags: ["指南"],
+3730-    },
+3731-    {
+3732-      id: 4,
+3733-      title: "我的文件夹",
+3734:      type: "文件夹",
+3735-      date: "25/6/20",
+3736-      iconType: "folder",
+3737-      tags: [],
+3738-      fileCount: 5,
+3739-    },
+--
+3748-        file.name.toLowerCase().endsWith(".docx");
+3749-
+3750-      const newFile = {
+3751-        id: Date.now(),
+3752-        title: file.name,
+3753:        type: isPdf ? "PDF" : isWord ? "WORD" : "文件",
+3754-        date: new Date()
+3755-          .toLocaleDateString("zh-CN", {
+3756-            year: "2-digit",
+3757-            month: "numeric",
+3758-            day: "numeric",
+--
+3769-  const handleChatFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
+3770-    const files = Array.from(e.target.files || []);
+3771-    const newAttachments = files.map((file) => ({
+3772-      name: file.name,
+3773-      url: URL.createObjectURL(file),
+3774:      type: file.type.startsWith("image/") ? "image" : "file",
+3775-    }));
+3776-    setChatAttachments((prev) => [...prev, ...newAttachments]);
+3777-    if (chatFileInputRef.current) {
+3778-      chatFileInputRef.current.value = "";
+3779-    }
+--
+3889-    const attachmentsToSent = [...chatAttachments];
+3890-    const newMessages: {
+3891-      role: "user" | "ai";
+3892-      content: string;
+3893-      options?: string[];
+3894:      attachments?: { name: string; url: string; type: string }[];
+3895-    }[] = [...messages, { role: "user", content: messageText, attachments: attachmentsToSent.length > 0 ? attachmentsToSent : undefined }];
+3896-    setMessages(newMessages);
+3897-    setInput("");
+3898-    setChatAttachments([]);
+3899-    setIsLoading(true);
+--
+5143-            />
+5144-            <motion.div
+5145-              initial={{ y: "100%" }}
+5146-              animate={{ y: 0 }}
+5147-              exit={{ y: "100%" }}
+5148:              transition={{ type: "spring", damping: 25, stiffness: 300 }}
+5149-              className="absolute bottom-0 left-0 right-0 bg-gray-100 rounded-t-3xl z-[210] overflow-hidden"
+5150-            >
+5151-              <div className="p-2 pb-8">
+5152-                <div className="bg-white rounded-2xl mb-2 overflow-hidden">
+5153-                  <button
+--
+5371-        {isShareMode && (
+5372-          <motion.div
+5373-            initial={{ y: "100%" }}
+5374-            animate={{ y: 0 }}
+5375-            exit={{ y: "100%" }}
+5376:            transition={{ type: "spring", damping: 25, stiffness: 300 }}
+5377-            className="absolute inset-0 bg-gray-50 z-[200] flex flex-col"
+5378-          >
+5379-            {/* Header */}
+5380-            <div className="bg-white px-4 py-3 flex items-center justify-between shadow-sm shrink-0">
+5381-              <button
+--
+5523-        {isAiShareModalOpen && (
+5524-          <motion.div
+5525-            initial={{ y: "100%" }}
+5526-            animate={{ y: 0 }}
+5527-            exit={{ y: "100%" }}
+5528:            transition={{ type: "spring", damping: 25, stiffness: 300 }}
+5529-            className="absolute inset-0 bg-gray-50 z-[300] flex flex-col"
+5530-          >
+5531-            {/* Header */}
+5532-            <div className="bg-white px-4 py-3 flex items-center justify-between shadow-sm shrink-0">
+5533-              <button
+--
+5847-            />
+5848-            <motion.div
+5849-              initial={{ y: "100%" }}
+5850-              animate={{ y: 0 }}
+5851-              exit={{ y: "100%" }}
+5852:              transition={{ type: "spring", damping: 25, stiffness: 300 }}
+5853-              className="fixed bottom-0 left-0 right-0 bg-white rounded-t-3xl z-[100] overflow-hidden pb-8"
+5854-            >
+5855-              <div className="p-4 border-b border-gray-100 flex items-center gap-3">
+5856-                <div className="w-10 h-10 rounded-lg bg-gray-50 flex items-center justify-center shrink-0">
+5857-                  {activeFile.iconType === "qa" ? (
+--
+6098-                  onClick={() => {
+6099-                    if (newFolderName.trim()) {
+6100-                      const newFolder = {
+6101-                        id: Date.now(),
+6102-                        title: newFolderName.trim(),
+6103:                        type: "文件夹",
+6104-                        date: new Date()
+6105-                          .toLocaleDateString("zh-CN", {
+6106-                            year: "2-digit",
+6107-                            month: "numeric",
+6108-                            day: "numeric",
+--
+6421-                  x: isCenter ? 0 : isLeft ? -150 : 150,
+6422-                  scale: isCenter ? 1 : 0.85,
+6423-                  opacity: isCenter ? 1 : 0.4,
+6424-                  zIndex: isCenter ? 10 : 0,
+6425-                }}
+6426:                transition={{ type: "spring", stiffness: 300, damping: 30 }}
+6427-                onClick={() => {
+6428-                  if (isLeft) handlePrev();
+6429-                  if (isRight) handleNext();
+6430-                }}
+6431-                className={`absolute w-[300px] h-[180px] rounded-2xl p-5 flex flex-col justify-between shadow-2xl shadow-black/80 cursor-pointer overflow-hidden ${getCardStyle(card.theme)}`}
+--
+6719-            />
+6720-            <motion.div
+6721-              initial={{ y: "100%" }}
+6722-              animate={{ y: 0 }}
+6723-              exit={{ y: "100%" }}
+6724:              transition={{ type: "spring", damping: 25, stiffness: 200 }}
+6725-              className="fixed bottom-0 left-0 w-full bg-[#1A1C35] rounded-t-3xl z-50 overflow-hidden flex flex-col"
+6726-              style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
+6727-            >
+6728-              <div className="p-5 border-b border-white/10 flex items-center justify-between">
+6729-                <div className="text-[18px] font-medium text-white">
+--
+6972-            />
+6973-            <motion.div
+6974-              initial={{ y: "100%" }}
+6975-              animate={{ y: 0 }}
+6976-              exit={{ y: "100%" }}
+6977:              transition={{ type: "spring", damping: 25, stiffness: 200 }}
+6978-              className="fixed bottom-0 left-0 right-0 bg-[#F7F9FC] rounded-t-[32px] z-[310] overflow-hidden flex flex-col max-h-[85vh]"
+6979-            >
+6980-              <div className="px-6 pt-6 pb-4 bg-white sticky top-0 z-10">
+6981-                <div className="flex items-center justify-between">
+6982-                  <h3 className="text-[20px] font-bold text-gray-900">
+--
+7642-  return (
+7643-    <motion.div
+7644-      initial={{ y: "100%" }}
+7645-      animate={{ y: 0 }}
+7646-      exit={{ y: "100%" }}
+7647:      transition={{ type: "spring", damping: 25, stiffness: 200 }}
+7648-      className="fixed inset-0 bg-[#0A0A0A] z-[300] flex flex-col overflow-y-auto no-scrollbar"
+7649-      ref={scrollRef}
+7650-      onScroll={handleScroll}
+7651-    >
+7652-      {/* Scroll to Top Button */}
+--
+8065-  return (
+8066-    <motion.div
+8067-      initial={{ x: "100%" }}
+8068-      animate={{ x: 0 }}
+8069-      exit={{ x: "100%" }}
+8070:      transition={{ type: "spring", damping: 25, stiffness: 200 }}
+8071-      className="absolute inset-0 bg-[#0A0A0A] z-[100] flex flex-col overflow-hidden"
+8072-    >
+8073-      {/* Background Image with Masking */}
+8074-      {activeMainTab === "listen" && (
+8075-        <div className="absolute inset-0 pointer-events-none">
+--
+8673-  const timeOptions = ["今天", "本周", "本月"];
+8674-
+8675-  const allSelectedFilters = [
+8676-    ...selectedFilters.region
+8677-      .filter((r) => r !== "全国")
+8678:      .map((v) => ({ type: "region", value: v })),
+8679:    ...selectedFilters.taxType.map((v) => ({ type: "taxType", value: v })),
+8680:    ...selectedFilters.industry.map((v) => ({ type: "industry", value: v })),
+8681:    ...selectedFilters.people.map((v) => ({ type: "people", value: v })),
+8682:    ...selectedFilters.authority.map((v) => ({ type: "authority", value: v })),
+8683-    ...selectedFilters.effectiveness.map((v) => ({
+8684:      type: "effectiveness",
+8685-      value: v,
+8686-    })),
+8687-    ...selectedFilters.policyType.map((v) => ({
+8688:      type: "policyType",
+8689-      value: v,
+8690-    })),
+8691-    ...(selectedFilters.time
+8692:      ? [{ type: "time", value: selectedFilters.time }]
+8693-      : []),
+8694-  ];
+8695-
+8696-  const selectedFilterCount = [
+8697-    ...selectedFilters.region.filter((r) => r !== "全国"),
+--
+8703-    ...selectedFilters.policyType,
+8704-  ].length;
+8705-
+8706-  const selectedTimeCount = selectedFilters.time ? 1 : 0;
+8707-
+8708:  const toggleFilter = (type: keyof typeof selectedFilters, value: string) => {
+8709-    setSelectedFilters((prev) => {
+8710-      if (type === "time") {
+8711-        return { ...prev, time: prev.time === value ? "" : value };
+8712-      }
+8713-      const list = prev[type] as string[];
+--
+8717-        return { ...prev, [type]: [...list, value] };
+8718-      }
+8719-    });
+8720-  };
+8721-
+8722:  const removeFilter = (type: string, value: string) => {
+8723-    toggleFilter(type as keyof typeof selectedFilters, value);
+8724-  };
+8725-
+8726-  const resetFilters = () => {
+8727-    setSelectedFilters({
+--
+8842-          {currentView === "journal" && (
+8843-            <motion.div
+8844-              initial={{ opacity: 0, x: "100%" }}
+8845-              animate={{ opacity: 1, x: 0 }}
+8846-              exit={{ opacity: 0, x: "100%" }}
+8847:              transition={{ type: "spring", damping: 25, stiffness: 200 }}
+8848-              className="absolute inset-0 z-[100] bg-[#F5F6F8] overflow-hidden"
+8849-            >
+8850-              <JournalPage 
+8851-                onBack={() => {
+8852-                  setCurrentView("main");
+--
+8859-          {currentView === "assessment" && (
+8860-            <motion.div
+8861-              initial={{ opacity: 0, x: "100%" }}
+8862-              animate={{ opacity: 1, x: 0 }}
+8863-              exit={{ opacity: 0, x: "100%" }}
+8864:              transition={{ type: "spring", damping: 25, stiffness: 200 }}
+8865-              className="absolute inset-0 z-[100] bg-[#F5F6F8] overflow-y-auto no-scrollbar"
+8866-            >
+8867-              <AssessmentPage 
+8868-                onBack={() => {
+8869-                  setCurrentView("main");
+--
+8876-                  description: '课程随堂测试，检验学习成果。',
+8877-                  questionCount: 2,
+8878-                  participants: activeAssessment.participants,
+8879-                  duration: activeAssessment.time,
+8880-                  isHot: true,
+8881:                  type: 'test',
+8882-                  cover: 'https://p5.itc.cn/q_70/images03/20220312/0a76461d44c146239140192d2ff13158.png',
+8883-                  questions: [
+8884-                    {
+8885-                      id: 'q1',
+8886:                      type: 'single',
+8887-                      question: '企业发生的符合条件的广告费和业务宣传费支出，不超过当年销售收入（ ）的部分，准予扣除。',
+8888-                      options: ['10%', '15%', '20%', '30%'],
+8889-                      answer: [1],
+8890-                      explanation: '《企业所得税法实施条例》第四十四条规定，不超过当年销售收入15%的部分，准予扣除。',
+8891-                      videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4',
+8892-                      relatedKnowledge: ['企业所得税法实施条例第四十四条']
+8893-                    },
+8894-                    {
+8895-                      id: 'q2',
+8896:                      type: 'multiple',
+8897-                      question: '下列各项中，在计算企业所得税应纳税所得额时不得扣除的有（ ）。',
+8898-                      options: ['企业之间支付的管理费', '企业内营业机构之间支付的租金', '罚金、罚款', '税收滞纳金'],
+8899-                      answer: [0, 1, 2, 3],
+8900-                      explanation: '根据所得税法，管理费、内部分支机构租金、罚金及滞纳金均不得税前扣除。',
+8901-                    }
+--
+8907-          {currentView === "event" && (
+8908-            <motion.div
+8909-              initial={{ opacity: 0, x: "100%" }}
+8910-              animate={{ opacity: 1, x: 0 }}
+8911-              exit={{ opacity: 0, x: "100%" }}
+8912:              transition={{ type: "spring", damping: 25, stiffness: 200 }}
+8913-              className="absolute inset-0 z-[100] bg-[#F5F6F8] overflow-y-auto no-scrollbar"
+8914-            >
+8915-              <EventPage
+8916-                onBack={() => {
+8917-                  if (persistedVideoIndex !== null) {
+--
+8931-          {currentView === "policy-service" && (
+8932-            <motion.div
+8933-              initial={{ opacity: 0, x: "100%" }}
+8934-              animate={{ opacity: 1, x: 0 }}
+8935-              exit={{ opacity: 0, x: "100%" }}
+8936:              transition={{ type: "spring", damping: 25, stiffness: 200 }}
+8937-              className="absolute inset-0 z-[100] bg-[#F5F6F8] overflow-y-auto no-scrollbar"
+8938-            >
+8939-              <PolicyServicePage onBack={() => setCurrentView("main")} />
+8940-            </motion.div>
+8941-          )}
+--
+9609-          {isChargingPageOpen && (
+9610-            <motion.div
+9611-              initial={{ opacity: 0, x: "100%" }}
+9612-              animate={{ opacity: 1, x: 0 }}
+9613-              exit={{ opacity: 0, x: "100%" }}
+9614:              transition={{ type: "spring", damping: 25, stiffness: 200 }}
+9615-              className="absolute inset-0 z-[80] bg-white flex flex-col"
+9616-            >
+9617-              <ChargingPage
+9618-                onBack={() => setIsChargingPageOpen(false)}
+9619-                onSearchClick={() => setIsSearching(true)}
+--
+9717-            >
+9718-              <motion.div
+9719-                initial={{ y: "100%" }}
+9720-                animate={{ y: 0 }}
+9721-                exit={{ y: "100%" }}
+9722:                transition={{ type: "spring", damping: 25, stiffness: 200 }}
+9723-                className="bg-white rounded-t-3xl h-[75%] flex flex-col w-full relative"
+9724-                onClick={(e) => e.stopPropagation()}
+9725-              >
+9726-                <button
+9727-                  onClick={() => setIsChannelManagerOpen(false)}
+--
+9831-            >
+9832-              <motion.div
+9833-                initial={{ y: "100%" }}
+9834-                animate={{ y: 0 }}
+9835-                exit={{ y: "100%" }}
+9836:                transition={{ type: "spring", damping: 25, stiffness: 200 }}
+9837-                className="bg-white rounded-t-3xl h-[66%] flex flex-col w-full relative"
+9838-                onClick={(e) => e.stopPropagation()}
+9839-              >
+9840-                {/* Header */}
+9841-                <div className="flex px-6 py-4 border-b border-gray-100 items-center justify-between">
+--
+10150-              onClose={() => setShortVideoStartIndex(null)}
+10151-              onShareClick={() => setIsShareModalOpen(true)}
+10152-              onCourseClick={(post) => {
+10153-                setCourseInitialTab("章节");
+10154-                setCourseInitialChapter(0);
+10155:                setSelectedCourse({ ...post, type: "course" });
+10156-                setShortVideoStartIndex(null);
+10157-              }}
+10158-              onEventClick={(post) => {
+10159-                setPersistedVideoIndex(shortVideoStartIndex);
+10160-                setEventPageInitialEvent(post);
